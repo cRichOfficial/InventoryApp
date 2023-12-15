@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/navigation_inventory">
+
+    <fragment
+        android:id="@+id/navigation_sign_in"
+        android:name="com.zybooks.inventoryapp.SignInFragment"
+        android:label="@string/title_sign_in"
+        tools:layout="@layout/fragment_sign_in"
+        />
+
+    <fragment
+        android:id="@+id/navigation_inventory"
+        android:name="com.zybooks.inventoryapp.InventoryFragment"
+        android:label="@string/title_my_inventory"
+        tools:layout="@layout/fragment_inventory"
+        />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.zybooks.inventoryapp.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings"
+        />
+    <fragment
+        android:id="@+id/navigation_add_item"
+        android:name="com.zybooks.inventoryapp.AddItemFragment"
+        android:label="fragment_add_item"
+        tools:layout="@layout/fragment_add_item" />
+    <fragment
+        android:id="@+id/navigation_user_profile"
+        android:name="com.zybooks.inventoryapp.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
+    <fragment
+        android:id="@+id/navigation_register_user"
+        android:name="com.zybooks.inventoryapp.RegisterUserFragment"
+        android:label="fragment_register_user"
+        tools:layout="@layout/fragment_register_user" />
+    <fragment
+        android:id="@+id/navigation_edit_item"
+        android:name="com.zybooks.inventoryapp.EditItemFragment"
+        android:label="fragment_edit_item"
+        tools:layout="@layout/fragment_edit_item" />
+</navigation>

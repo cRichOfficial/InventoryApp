@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="industrialBlue">#1F4B70</color> <!-- A deep, muted blue -->
+    <color name="industrialBlueDark">#163252</color> <!-- A darker shade for the primary color -->
+    <color name="industrialOrange">#D97D0D</color> <!-- A warm, muted orange -->
+    <color name="industrialOrangeDark">#A85F0A</color> <!-- A darker shade for the secondary color -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="lightGray">#B2838383</color>
+    <color name="lightBackground">#f5f5f5</color>
+</resources>

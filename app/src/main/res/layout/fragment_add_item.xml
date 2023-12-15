@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/IndustrialPageTitle"
+            android:layout_height="wrap_content"
+            android:text="@string/title_add_item" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:text="@string/add_item_item_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/addNameEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_item_item_name_label"
+            android:minHeight="48dp" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_item_item_description_label" />
+
+        <EditText
+            android:id="@+id/addDescriptionEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_item_item_description_label"
+            android:minHeight="48dp" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_item_item_quantity_label" />
+
+        <EditText
+            android:id="@+id/addQuantityEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/add_item_item_quantity_label"
+            android:inputType="number"
+            android:minHeight="48dp" />
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_item_alert_quantity_label" />
+
+        <EditText
+            android:id="@+id/addAlertEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/add_item_item_quantity_label"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/addItemButton"
+            style="@style/IndustrialButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_item_button_text" />
+    </LinearLayout>
+
+
+</FrameLayout>

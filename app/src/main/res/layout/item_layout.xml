@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+    >
+    <ImageButton
+        android:id="@+id/item_layout_remove_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="32dp"
+        android:minHeight="32dp"
+        android:src="@drawable/remove"
+        android:layout_weight="0"
+        />
+
+    <TextView
+        android:id="@+id/item_layout_name_text"
+        style="@style/IndustrialInventoryRow"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/item_layout_description_text"
+        style="@style/IndustrialInventoryRow"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/item_layout_quantity_text"
+        style="@style/IndustrialInventoryRowQuantity"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        />
+
+    <ImageButton
+        android:id="@+id/item_layout_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="32dp"
+        android:minHeight="32dp"
+        android:src="@drawable/edit"
+        android:layout_weight="0"
+        />
+</LinearLayout>

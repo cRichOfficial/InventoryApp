@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        tools:ignore="UseSwitchCompatOrMaterialXml">
+
+        <TextView
+            style="@style/IndustrialPageTitle"
+            android:text="@string/settings_title"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_columnSpan="2" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:text="@string/settings_notifications"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <Switch android:id="@+id/sms_toggle_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:minHeight="48dp"
+            android:layout_gravity="end"
+            android:text="Switch"/>
+
+        <TextView
+            style="@style/TextAppearance.Material3.LabelMedium"
+            android:paddingLeft="30dp"
+            android:text="@string/settings_phone_number_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+        <TextView
+            style="@style/TextAppearance.Material3.LabelMedium"
+            android:id="@+id/sms_mobile_number_text_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_row="2" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:text="@string/settings_darkmode"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:minHeight="48dp"
+            android:layout_gravity="end"
+            android:text="Switch" />
+
+
+    </GridLayout>
+
+</FrameLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUserFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/IndustrialPageTitle"
+            android:id="@+id/inventoryTitle"
+            android:text="@string/register_title_text"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_user_name_label" />
+
+        <EditText
+            android:id="@+id/registerUserNameEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/register_user_name_label"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_email_label" />
+
+        <EditText
+            android:id="@+id/registerEmailEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/register_email_label"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_password_label" />
+
+        <EditText
+            android:id="@+id/registerPasswordEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/register_password_label"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_password_confirm_label" />
+
+        <EditText
+            android:id="@+id/registerConfirmPasswordEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/register_password_confirm_label"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_first_name_label" />
+
+        <EditText
+            android:id="@+id/registerFirstNameEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/register_first_name_label"
+            android:inputType="textCapSentences"
+            android:minHeight="48dp" />
+
+        <TextView
+            style="@style/IndustrialLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_last_name_label" />
+
+        <EditText
+            android:id="@+id/registerLastNameEditText"
+            style="@style/IndustrialEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/register_last_name_label"
+            android:inputType="textCapSentences"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/registerSaveButton"
+            style="@style/IndustrialButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/register_register_button"
+            tools:text="@string/register_register_button" />
+
+
+
+    </LinearLayout>
+</FrameLayout>
